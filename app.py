@@ -396,4 +396,9 @@ with col_foot_l:
         For educational purposes only · Not medical advice
     </div>""", unsafe_allow_html=True)
 with col_foot_r:
-    st.page_link("pages/1_Methodology.py", label="Methodology & Sources →", icon="📖")
+    st.markdown("""
+    <a href="/Methodology" target="_self" style="display:inline-flex;align-items:center;gap:6px;
+       background:#1e1e28;border:1px solid #3a3a50;border-radius:8px;padding:8px 16px;
+       font-size:0.82rem;color:#b69cf5;text-decoration:none;">
+       📖 Methodology &amp; Sources →
+    </a>""", unsafe_allow_html=True)
